@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 50px;
+    margin-left: 200px;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.text{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}

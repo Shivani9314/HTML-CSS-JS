@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin: 100px;
+    margin-left: 250px;
+}
+
+.container{
+    display: flex;
+    width: 775px;
+    justify-content: space-between;
+}
+
+.box{
+    width: 250px;
+    box-shadow: 5px 5px rgb(226, 221, 221);
+}
+
+h4{
+    color: gray;
+}
+
+.textbox{
+    padding-left: 10px;
+}
+
+footer{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer button{
+    padding: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border: none;
+}

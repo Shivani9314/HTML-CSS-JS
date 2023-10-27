@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 100px;
+    margin-left: 200px;
+}
+
+.container{
+    display: flex;
+    width: 900px;
+    justify-content: space-between
+}
+
+.box{
+    width: 400px;
+}
+
+.text{
+    margin-left: 25px;
+}
+
+.top{
+    margin-bottom: 40px;
+}
+
+i{
+    color: orange;
+}

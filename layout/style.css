@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: 'hd hd hd'
+                         'nv nv nv'
+                         'mn as sec'
+                         'ass ass ass'
+                         'ft ft ft';
+                         
+}
+
+.rd{
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+}
+header{
+    grid-area: hd;
+}
+
+nav{
+    grid-area: nv;
+}
+
+main{
+    grid-area: mn ;
+}
+
+aside{
+    grid-area: as;
+}
+
+section{
+    grid-area: sec;
+    
+}
+
+.aside2{
+    grid-area: ass;
+}
+
+footer{
+    grid-area: ft ;
+}

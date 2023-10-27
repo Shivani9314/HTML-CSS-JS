@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.box{
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border-spacing: 5px;
+}
+.box1{
+    padding: 30px;
+}
+.flex{
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+}
+.main{
+    width: 200px;
+    border: 2px solid black;
+    align-self: stretch;
+    flex-basis: 50%;
+    text-align: center;
+    background-color: lightgray;
+}
+.grid{
+    display: grid;
+}
+
+.aside{
+    width: 300px;
+    border: 2px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.section{
+    width: 300px;
+    border: 2px solid black;
+    background-color: lightgray;
+    text-align: center;
+}

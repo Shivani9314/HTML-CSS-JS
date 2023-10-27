@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color : gray;
+    margin: 50px;
+}
+
+.jokes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: rgb(36, 64, 67);
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.box{
+    background-color: #ccc;
+    font-size: 1.25rem;
+}
+
+.box3 {
+    margin-top: 20px;
+    margin-right: 300px;
+    background-color: #ccc;
+}
+
+.button{
+    margin: 40px;
+    margin-left: 150px;
+}
+
+button{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: salmon;
+}
+
+button :hover {
+    background-color: #ccc;
+}

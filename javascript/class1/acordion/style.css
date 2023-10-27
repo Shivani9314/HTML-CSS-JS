@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.25em;
+}
+
+.container {
+    font-family: sans-serif;
+    width: 510px;
+    margin-block: 50px;
+}
+
+.qus-ans {
+    margin: 25px 20px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+}
+
+.qus {
+    padding: 20px;
+    position: relative;
+    background-color: #f3f4ff;
+    font-size: 1.1em;
+    display: flex;
+    border-radius: 10px;
+}
+
+.qus p {
+    display: inline;
+    margin-inline: 0.5em;
+}
+
+.qus span:last-child {
+    position: absolute;
+    right: 20px;
+    top: 33%;
+}
+
+.ans {
+    margin: 10px 20px;
+    padding-left: 1em;
+    display: none;
+    padding-bottom: 10px;
+}
+
+.qus-ans.active .ans {
+    display: block;
+}
+
+.qus-ans.active .qus span:last-child {
+    transform: rotate(180deg);
+}
